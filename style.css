@@ -1,0 +1,73 @@
+body{
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+h1 {
+    position: relative;
+    left: -20px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.container{
+    display: flex;
+    position: relative;
+    top: 10px;
+    gap: 20px;
+}
+#todo{
+    width: 26vw;
+    height: 6vh;
+    background-color: aliceblue;
+
+}
+.btn{
+    height: 6.4vh;
+    width: 4vw;
+    position: relative;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    cursor: pointer;
+    background: rgb(219,27,211);
+    background: linear-gradient(184deg, rgba(219,27,211,1) 0%, rgba(47,47,235,1) 47%, rgba(9,142,169,1) 100%);
+}
+.todo{
+    font-size: 1rem;
+    
+}
+.bottom{
+    color: white;
+    font-size: larger;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    position: relative;
+    top: 110px;
+}
+.created{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    width: 26vw ;
+    height: 6vh ;
+    left: -40px;
+    top: -82px;
+    border-radius: 5px;
+    margin-top: 20px;
+    word-wrap: break-word;
+    
+}
+.deletebutton{
+    height: 6vh;
+    width: 6vw;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+textarea:focus, input:focus{
+    outline: none;
+}
